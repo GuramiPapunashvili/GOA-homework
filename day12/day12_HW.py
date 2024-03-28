@@ -6,7 +6,7 @@
 userinfo = []
 user_name = input("please input your name: ")
 user_surname = input("please input your username: ")
-user_age = input("please input your age: ")
+user_age = int(input("please input your age: "))
 user_address = input("please input your address: ")
 
 userinfo.append(user_name)
@@ -36,7 +36,7 @@ print(num_list)
 
 my_info = "Guram Papunashvili"
 print(my_info[0:5])
-print(my_info[5:])
+print(my_info[6:])
 
 #homework 4 სიაში შეინახეთ მინიმუმ 5 საყვარელი ფილმი.
 #გამოიყენეთ Slicing და  დაბეჭდეთ რამდენიმე კომბინაციით.
