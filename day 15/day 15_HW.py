@@ -1,19 +1,26 @@
 #work 1 შექმენით ფუნქცია, რომელსაც გადასცემთ თქვენ სახელს და გვარს. გამოიყენეთ split,
 #indexing და დაბეჭდეთ თქვენი ინიციალები. test case: input) David Tezelashvili -> output) D.T
 
-def initials(name, surname):
-    your_initials = name[0] + "." + surname[0]
-    return your_initials
+def initials(fullname):
+    splited_fullname = fullname.split(" ")
+    name = splited_fullname[0]
+    surname = splited_fullname[1]
+    initials = name[0] + "." + surname[0] 
+    return initials
 
-print(initials("Guram", "Papunashvili"))
+
+
+print(initials("Guram Papunashvili"))
 
 #work 2 შექმენით ფუნქცია, რომელსაც გადასცემთ სიას.
 #თქვენი დავალებაა, რომ დაბეჭდოთ ამ სიის საშუალო არითმეტიკული (ჯამი / სიგრძე)
 
 def average_num(nums):
     sum = 0
+    amount = 0
     for i in nums:
-        sum = sum + i    
+        sum = sum + i
+        amount = amount + 1    
         result = sum / i
     return result
 
