@@ -1,0 +1,34 @@
+.info {
+    color: white;
+    text-align: center;
+    font: bold;
+    font-size: 70px;
+}
+
+.text {
+    font-size: 30px;
+    background-color: white;
+}
+
+html {
+    background-color: rgb(53, 52, 52);
+}
+
+.cars {
+    height: 250px;
+    width: 300px;
+}
+
+.nextDiv {
+    display: flex   ;
+}
+
+.cartext{
+    font-size: 30px;
+    background-color: white;
+    width: 300px;
+}
+
+.infotext {
+    display: flex;
+}

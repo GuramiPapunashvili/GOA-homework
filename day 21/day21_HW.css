@@ -1,0 +1,44 @@
+.FbImg {
+    margin-left: 300px;
+    height: 440px;
+    width: 900px;
+}  
+
+.LogoImg {
+    height: 110px;
+    width: 110px;
+    margin-left: 300px;
+    border-radius: 50px;
+}
+
+.Lower {
+    display: flex;
+}
+
+.FbText {
+    margin-top: 50px;
+    font-size: 200%;
+}
+
+.ImgLogo {
+    height: 25px;
+    width: 100px;
+}
+
+.Btn {
+    margin-top: 40px;
+    height: 35px;
+    margin-left: 80px;
+    background-color: blue;
+    font-size: larger;
+    font: bold;
+}
+
+.LikeBtn {
+    margin-top: 40px;
+    height: 35px;
+    margin-left: 80px;
+    background-color: white;
+    font-size: larger;
+    font: bold;
+}
