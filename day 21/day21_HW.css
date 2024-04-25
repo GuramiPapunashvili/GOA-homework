@@ -42,3 +42,11 @@
     font-size: larger;
     font: bold;
 }
+
+html {
+    background-color: grey;
+}
+
+.InfoText {
+    font-size: larger;
+}
