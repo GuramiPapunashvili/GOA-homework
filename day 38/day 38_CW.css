@@ -1,0 +1,48 @@
+html{
+    background-color: blue;
+}
+.Login {
+    background-color: white;
+    width: 250px;
+}
+.FBLogin{
+    background-color: blue;
+}
+
+.text {
+    color: black;
+}
+
+.altLogin { 
+    color: black;
+}
+
+.MainDiv {
+    display: flex;
+}
+
+.button1 {
+    background-color: blue;
+}
+
+.SignUpLabel, .LogInLabel { 
+    color: lightblue;
+}
+
+
+
+.p1 {
+    color: rgb(144, 238, 144);
+}
+
+.p2{
+    color: rgb(0, 0, 139);
+}
+
+.p3{
+    color: rgb(178, 191, 29);
+}
+
+.p4{
+    color: rgb(162, 16, 140);
+}

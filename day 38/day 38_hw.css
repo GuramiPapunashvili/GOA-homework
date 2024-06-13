@@ -1,0 +1,45 @@
+.Logo {
+    height: 50px;
+    width: 50px;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.Main {
+    background-color: rgb(45, 44, 44);
+    height: 100px;
+    align-items: center;
+    display:flex;
+}
+
+.HeaderInfo {
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.ToDistance {
+    margin-left: 25%;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.HeaderImg, .ToDistance {
+    height: 30px;
+    width: 30px;
+}
+
+.AboutMe {
+    margin-left: 100px;
+}
+
+.FaceImg {
+    height: 400px;
+    width: 500px;
+    margin-left: 200px;
+}
+
+.ToFlex {
+    display: flex;
+}
+
