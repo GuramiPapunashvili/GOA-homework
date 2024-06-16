@@ -1,0 +1,8 @@
+.CenterRound{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: blue;
+    margin-left: 700px;
+    margin-top: 250px;
+}
