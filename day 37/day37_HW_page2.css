@@ -1,0 +1,38 @@
+html {
+    background-image: url(background.jpg);
+}
+
+
+#input1, #input2 {
+    position: relative;
+    top: 35%;
+    margin: auto;
+    height: 7%;
+    width: 20%;
+    display: grid;
+}
+
+.Button {
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    width: 8%;
+    height: 5%;
+} 
+
+.welcome {
+    font-size: 500%;
+    color: #ffffff;
+}
+
+.Cinfo {
+    font-size: 140%;
+    color: #ffffff;
+}
+
+.logos {
+    border-radius: 20%;
+    width: 30px;
+    height: 30px;
+}
+

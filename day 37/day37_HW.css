@@ -1,0 +1,55 @@
+html {
+    background-color: #282893;
+}
+
+.sportImg {
+    width: 200px;
+    height: 200px;
+}
+
+.fbImg:hover {
+    opacity: 80%;
+}
+
+#Main {
+    display: flex;
+}
+
+
+.name, h1 {
+    font-size: 300%;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#menu {
+    text-indent: 30px;
+    background-color: #5e5a5a;
+    height: 10%;
+    display: flex;
+}
+
+.Home, .logIn {
+    font-size: 150%;
+    color: #a4a2a2;
+    margin-top: 1%;
+    
+}
+
+.logIn {
+    align-content: end;
+}
+
+.text {
+    color: #ffffff;
+    font-size: 175%;
+}
+
+
