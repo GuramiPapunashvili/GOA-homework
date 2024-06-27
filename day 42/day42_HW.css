@@ -1,0 +1,22 @@
+.Header {
+    display: flex;
+    color: rgb(164, 5, 164);
+    font-size: large;
+}
+
+Button {
+    background-color: purple;
+    border-radius: 20px;
+    color: white;
+}
+
+.Navigation {
+    display: flex;
+    gap: 25px;
+    margin-left: 1050px;
+}
+
+.Nav {
+    color: rgb(203, 203, 203);
+}
+         

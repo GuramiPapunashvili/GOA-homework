@@ -1,0 +1,49 @@
+.Input {
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-left: 60px;
+    background-color: rgb(195, 210, 210);
+    width: 300px;
+    height: 35px;
+}
+
+.SignIn {
+    margin-left: 600px;
+    border: 2px solid black;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+}
+
+h1{
+    margin-left: 150px;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 120px;
+}
+
+a{
+    margin-left: 175px;
+}
+
+.ForgPass {
+    margin-left: 270px;
+}
+
+.Button {
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 63px;
+    background-color: blue;
+}
+
+.Button:hover {
+    transition: smooth;
+    background-color: rgb(157, 157, 251);
+    scale: 120%;
+}
+
+html {
+    background-color: grey;
+}
