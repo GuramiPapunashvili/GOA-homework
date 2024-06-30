@@ -1,0 +1,35 @@
+.child1 {
+    background-color: aqua;
+}
+
+.child2 {
+    background-color: rgb(174, 255, 0);
+}
+
+.child3 {
+    background-color: rgb(98, 255, 0);
+}
+
+.child4 {
+    background-color: rgb(166, 0, 255);
+}
+
+.child5 {
+    background-color: rgb(255, 0, 0);
+}
+
+.child {
+    height: 20px;
+    width: 30px;
+}
+
+.Container {
+    height: 150px;
+    width: 300px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* justify-content: center */;
+    justify-content: space-around
+}
