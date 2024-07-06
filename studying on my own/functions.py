@@ -1,17 +1,8 @@
-def increment_string(s):
-    L = []
-    Sum = ''
-    for i in s:
-        try:
-            int(i)
-        except:
-            pass
-        else:
-            L.append(i)
-    for i in L:
-        Sum = Sum + i        
+def variance(numbers):
+    mean = sum(numbers) // 4
+    result = 0
+    for i in numbers:
+        result += (i - mean) ** 2
+    return result / 4
 
-    return int(Sum) + 1
-
-print(increment_string("foo001"))
-
+print(variance([1, 2, 2, 3]))    

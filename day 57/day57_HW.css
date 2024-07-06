@@ -1,0 +1,50 @@
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 25px;
+    gap: 35px;
+}
+
+.GetStarted {
+    background-color: rgb(142, 5, 142);
+    color: white;
+    height: 45px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: large;
+    align-items: right;
+}
+
+h1 {
+    margin-right: 925px;
+    position: absolute;
+    color: rgb(135, 0, 110);
+}
+
+h2, p {
+    color: rgb(84, 1, 69);
+    font-size: x-large;
+}
+
+.Navigation {
+    color: grey;
+    font-size: medium;
+}
+
+.Main {
+    width: 1100px;
+    height: 600px;
+    background-color: aqua;
+    margin-left: 200px;
+    background-image: url(Screenshot\ 2024-07-05\ 135845.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+html {
+    background: linear-gradient(rgb(1, 123, 103), rgb(0, 255, 213));
+    background-repeat: no-repeat;
+    height: 700px;
+}

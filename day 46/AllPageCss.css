@@ -1,0 +1,17 @@
+.Info {
+    font-size: xx-large;
+    height: 570px;
+    margin-top: 150px;
+}
+
+.MainDiv {
+    text-align: center;
+}
+
+html {
+    background: linear-gradient(rgb(97, 159, 206), rgb(255, 255, 255) )
+}
+
+a {
+    font-size: xx-large;
+}

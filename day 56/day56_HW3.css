@@ -1,0 +1,126 @@
+html {
+    background-color: rgb(45, 44, 44);
+}
+
+.GravidaImg, .ConsequatImg, .ElementumImg, .IntegerImg, .UltricsImg, .Face {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: contain;
+    margin-left: 30px;
+    border: 5px solid rgb(45, 45, 45);
+}
+
+.Face{
+    background-image: url(IMG1.jpg);
+    margin-left: 700px;
+    box-shadow: 0px 4px 8px rgb(23, 23, 23);
+}
+
+.GravidaImg {
+    background-image: url(Gravida.jpg);
+}
+
+.ConsequatImg {
+    background-image: url(Consequat.jpg);
+}
+
+.ElementumImg{
+    background-image: url(Elementum.jpg);
+}
+
+.IntegerImg{
+    background-image: url(Integer.jpg);
+}
+
+.UltricsImg{
+    background-image: url(Ultrices.jpg);
+}
+
+.Gravida, .Consequat, .Elementum, .Integer, .Ultrics {
+    display: flex;
+    align-items: center;
+    background-color: rgb(45, 45, 45);
+    border-radius: 20px; 
+    padding: 20px;
+    width: 600px; 
+    margin-left: 450px;
+    background-color: rgb(23, 23, 23);
+    box-shadow: 0px 4px 8px rgb(23, 23, 23);
+    margin-top: 35px;
+}
+
+.Info {
+    color: rgb(102, 102, 102);
+    margin-left: 70px;
+}
+
+.Point {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: rgb(156, 156, 156);
+    font-size: 30px;
+    margin-left: 8px;
+    margin-top: 4px;
+}
+
+.ForCircle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(42, 42, 42);
+    margin-left: 140px;
+}
+
+
+h1 {
+    color: white;
+    font-size: 200%;
+}
+
+
+.Twitter {
+    background-image: url(twitterlogo.jpg);
+    margin-left: 600px;
+}
+
+.Instagram{
+    background-image: url(iglogo.png);
+}
+
+.Email {
+    background-image: url(button_ion.jpg);
+}
+
+.Logos {
+    display: flex;
+    gap: 10px;
+    
+}
+
+
+.icon {
+    width: 50px; 
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.icon:hover{
+    scale: 120%;
+
+}
+
+.MyInfo {
+    text-align: center;
+    color: rgb(102, 102, 102);
+    font-size: 125%;
+    
+}

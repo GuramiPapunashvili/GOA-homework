@@ -1,0 +1,96 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0F0C29, #302B63, #24243E);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent;
+    width: 100%;
+    padding: 15px 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.nav-link {
+    margin: 0 10px;
+}
+
+.signup-btn {
+    background: #2D9CDB;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.signup-btn:hover {
+    background: #56CCF2;
+}
+
+.Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.TextContainer h1 {
+    font-size: 2.5em;
+    max-width: 800px;
+    margin: 0 20px;
+    line-height: 1.2;
+}
+
+.InputContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    width: 60%;
+    max-width: 500px;
+    margin-right: 10px;
+}
+
+.Start {
+    background: linear-gradient(135deg, #56CCF2, #2F80ED);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1em;
+    color: white;
+    cursor: pointer;
+}
+
+.Start:hover {
+    background: linear-gradient(135deg, #2F80ED, #56CCF2);
+}
+
+.video-link {
+    margin-top: 20px;
+    font-size: 1.2em;
+}

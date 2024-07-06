@@ -1,0 +1,16 @@
+.HeaderTable {
+    background-color: green;
+    color: white;
+}
+
+.ClassTable {
+    border-bottom: 2px solid rgb(5, 58, 0);
+    width: 450px;
+    border-collapse: collapse;
+    font-size: larger;
+}
+
+.HighlitedStudent {
+    color: rgb(30, 138, 30);
+    background-color: aliceblue;
+}
