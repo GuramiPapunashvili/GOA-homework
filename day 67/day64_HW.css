@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+.to_animate {
+    width: 300px;
+    height: 450px;
+    transition: transform 1s ease-in;
+}
+
+.to_animate:hover {
+    transform: scale(1.2) rotateX(360deg);
+}

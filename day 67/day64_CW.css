@@ -1,0 +1,15 @@
+.Animated {
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    transition: transform 2s linear; /* here i use transition to make the transformation last 2 second i also use linear
+     which makes the speed of this animation consistant throughout the entire lenght of it */
+}
+
+.Animated:hover {
+    transform: rotate(180deg);    /* using transform:rotate(180deg); we rotate our div block 180 degrees clockwise  */ 
+    transform: translate(600px, 200px) /* using scale i put the div block in the middle */
+    scale(5) /* and finally using scale i 5 times the size of the div block */
+}
+
+/* overall by hovering on the div block in 2 second you make it 5 times the size it was and put it in the middle */
