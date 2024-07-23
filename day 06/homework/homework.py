@@ -12,7 +12,6 @@ Cpassword = input("please confirm your password")
 
 #using if command that i learned with a simple google search we will add some easy details
 
-# if  Uname.strip() or password.strip() or Cpassword.strip() == ' ':
 #  print ("please fill out every form")  #with the code in line 15 and 16 we make sure that the user has filled out every form
 
 if password != Cpassword:
