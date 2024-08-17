@@ -14,8 +14,9 @@ Cpassword = input("please confirm your password")
 
 #  print ("please fill out every form")  #with the code in line 15 and 16 we make sure that the user has filled out every form
 
-if password != Cpassword:
- print("passwords dont match") #with the code in line 18 and 19 we check if the passwords match
+while password != Cpassword:
+ print("passwords dont match")
+ Cpassword = input("please try again") #with the code in line 18 and 19 we check if the passwords match
 
 #now we confirm if the user is satisfied with their gmail/username and password
 

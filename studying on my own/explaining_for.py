@@ -1,15 +1,9 @@
-def order(sentence):
-    result = []
-    num = 1
-    split_sentences = sentence.split(' ')
-    for j in range(len(split_sentences), len(split_sentences) + 1):
-        while j != len(result):
-            for i in split_sentences:
-                if str(num) in i:
-                    result.append(i)
-                    num += 1
-                else:
-                    continue
-    return ' '.join(result)
+def powers_of_two(n):
+    res = []
+    for i in range(n):
+        res.append(2 ** i)
+    return res
 
-print(order("is2 Thi1s T4est 3a"))
+print(powers_of_two(5))
+
+

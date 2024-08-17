@@ -1,0 +1,40 @@
+.nav {
+    display: flex;
+    gap: 25px;
+    background-color: black;
+    justify-content: center;
+}
+
+.InNav {
+    color: white;
+    font-size: xx-large;
+}
+
+.name {
+    margin-right: auto;
+    font-size: xx-large;
+    color: white;
+}
+
+@media (max-width: 805px) {
+    .InNav {
+        font-size: 20px;
+        color: purple;
+    }
+
+    .name {
+        font-size: large;
+    }
+
+    body {
+        background-color: red;
+    }
+}
+
+@media (max-width: 500px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}

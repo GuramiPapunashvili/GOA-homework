@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p id="Change">before</p>
+    <script>
+        const content = document.getElementById('Change')
+        content.textContent = 'after'
+
+        const firstName = 'Gurami'; //const create an unchangeable variable
+        let lastName = 'Papunashvili'; //let creates a changeable variable and will result in an error if tried to change
+        lastName = 'hello'
+        console.log(firstName +  ' ' + lastName);
+
+
+        const person = {
+            name : 'Gurami',
+            surname : 'Papunashvili',
+            age : 16,
+            height : 178,
+            weight : 67
+        }
+
+        person.age = 18
+        person.job = "Mentor's Assistant" 
+        console.log('Your name is ' + person.name + ' You are ' + person.age + ' years old' + ' Your position is ' + person.job)
+        console.log(person)
+
+
+    </script>
+</body>
+</html>

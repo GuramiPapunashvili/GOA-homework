@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Projects"
+		},
+		{
+			"path": "../../GOA Leader Test"
+		},
+		{
+			"path": "../../git project"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "python course"
+	}
+}
