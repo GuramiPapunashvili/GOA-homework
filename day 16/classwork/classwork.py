@@ -9,3 +9,4 @@ def sum(nums):
 list = [1, 25, 3, 5]
 print(sum(list))
        
+
