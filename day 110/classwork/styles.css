@@ -1,0 +1,27 @@
+.search-container {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#movie-info {
+  margin-top: 20px;
+}
+
+.movie-details img {
+  width: 200px;
+  margin-top: 10px;
+}
+
+.movie-details h2, .movie-details p {
+  margin: 10px 0;
+}
