@@ -1,0 +1,16 @@
+Homework N1
+function capital_counter(file):
+	declare variable capital_count = 0
+	for each character in file:
+		if character/element iscapital:   -- + 1 Comparsion
+			add 1 to capital_count       + 1 Increment
+    return count
+
+Homework N2
+function average(set):
+declare variable sum = 0 -- + 1 Declaring variable
+declare varaible count = 0 -- + 1 Declaring variable
+for num in set:
+    add num to sum, sum += num -- + 1 Increment
+    add 1 to count, count += 1 -- + 1 Increment
+return sum/count -- Math Operation
