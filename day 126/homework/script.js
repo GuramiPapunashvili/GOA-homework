@@ -1,0 +1,1 @@
+//finished jsx section in codecademy + did homework in replit(ბატონმა ლუკამ იქ იმუშავეთ სანამ reactს არ დავაყენებთო)

@@ -1,0 +1,8 @@
+worked on debian again.
+
+here are some commands we learned:
+whoami - displays the name of the user
+pwd - shows the path we are currently working in
+df -h -- shows every disk and their size
+top - shows all the proccess happening in linux
+{command} --help - shows all the commands of the said command

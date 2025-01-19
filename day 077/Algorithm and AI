@@ -1,0 +1,27 @@
+# when we take a binary number that has a single 1, the letter will always be 2 to the power of n.
+# when we take a binary number that has only 1s, the letter will always be 2 to the power of n - 1.
+
+# classwork(made it with code cuz im too lazy to get a pen):
+#takes an integer and returns binary form
+def switchingSystems(num,sys1):
+    dict = {
+        "A":10,
+        'B':11,
+        'C':12,
+        'D':13,
+        'E':14,
+        'F':15
+    }
+    def toBinary(num1):
+        n = len(str(num))-1
+        num1 = num1[::-1]
+        toReturn = ''
+        for i in range(n):
+            toReturn += str(num1[0] * 2^n)
+        return toReturn
+    match sys1:
+        case "Binary":
+            return toBinary(num)
+        
+print(switchingSystems(101010,"Binary"))
+

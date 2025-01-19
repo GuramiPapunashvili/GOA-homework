@@ -1,0 +1,1 @@
+//just had codecademy and learning how to use vite(did it in classwork)

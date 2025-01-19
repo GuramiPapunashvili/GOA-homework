@@ -1,4 +1,3 @@
-
 export function calc(num1,num2,op){
     switch(op){
         case '+':
