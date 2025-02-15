@@ -1,7 +1,7 @@
 
 function App() {
   return (
-    s
+      <p>No classwork</p>
   );
 }
 
