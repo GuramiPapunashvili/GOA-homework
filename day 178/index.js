@@ -1,0 +1,2 @@
+var firstname;
+firstname = 'gurami';
