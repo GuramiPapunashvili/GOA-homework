@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="calculator">
+    <p id="display"></p>
+    <div id="keys">
+        <button id="key-clear" onclick="clearDisplay()">C</button>
+        <button id="key-left-paren" onclick="appendToDisplay('(')">(</button>
+        <button id="key-right-paren" onclick="appendToDisplay(')')">)</button>
+        <button id="key-divide" onclick="appendToDisplay('/')">/</button>
+
+        <button id="key-7" onclick="appendToDisplay('7')">7</button>
+        <button id="key-8" onclick="appendToDisplay('8')">8</button>
+        <button id="key-9" onclick="appendToDisplay('9')">9</button>
+        <button id="key-multiply" onclick="appendToDisplay('')"></button>
+
+        <button id="key-4" onclick="appendToDisplay('4')">4</button>
+        <button id="key-5" onclick="appendToDisplay('5')">5</button>
+        <button id="key-6" onclick="appendToDisplay('6')">6</button>
+        <button id="key-subtract" onclick="appendToDisplay('-')">-</button>
+
+        <button id="key-1" onclick="appendToDisplay('1')">1</button>
+        <button id="key-2" onclick="appendToDisplay('2')">2</button>
+        <button id="key-3" onclick="appendToDisplay('3')">3</button>
+        <button id="key-add" onclick="appendToDisplay('+')">+</button>
+
+        <button id="key-0" onclick="appendToDisplay('0')">0</button>
+        <button id="key-dot" onclick="appendToDisplay('.')">.</button>
+        <button id="key-percent" onclick="appendToDisplay('%')">%</button>
+        <button id="key-equals" onclick="calculate()">=</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
